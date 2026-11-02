@@ -1,0 +1,23 @@
+{
+  "name": "discord-keep-online",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Discord keep-online + status permanen (tidak hilang walau aplikasi Discord ditutup) + Spotify \"Listening\" presence. Versi Node.js dari dc3.php — TANPA dependency (cukup node index.js)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test/proto.test.js && node test/wsclient.test.js && node test/discord-status.test.js && node test/spotify.test.js && node test/roblox.test.js && node test/ps5.test.js && node test/quest.test.js && node test/scout-retry.test.js && node test/scout-work.test.js && node test/dashboard.test.js && node test/tunnel.test.js && node test/keeper.test.js",
+    "test:proto": "node test/proto.test.js",
+    "test:dash": "node test/dashboard.test.js",
+    "test:quest": "node test/quest.test.js",
+    "test:tunnel": "node test/tunnel.test.js",
+    "test:keeper": "node test/keeper.test.js",
+    "test:ws": "node test/wsclient.test.js",
+    "test:discord": "node test/discord-status.test.js",
+    "test:spotify": "node test/spotify.test.js",
+    "test:roblox": "node test/roblox.test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

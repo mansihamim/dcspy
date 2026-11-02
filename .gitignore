@@ -1,0 +1,19 @@
+# Secrets: keep real credentials out of Git
+.env
+.env.*
+!.env.example
+PULIHKAN.md
+
+# Runtime state and downloaded binaries
+.scout/
+data/tunnel-jejak.json
+bin/
+logs/
+*.log
+*.pid
+
+# Local dependencies and generated output
+node_modules/
+coverage/
+dist/
+build/
